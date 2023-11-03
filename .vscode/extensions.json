@@ -1,5 +1,11 @@
 {
     "recommendations": [
-        "dracula-theme.theme-dracula"
+        "dracula-theme.theme-dracula",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "editorconfig.editorconfig",
+        "naumovs.color-highlight",
+        "vscode-icons-team.vscode-icons",
+        "streetsidesoftware.code-spell-checker"
     ]
 }
