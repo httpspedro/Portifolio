@@ -7,6 +7,7 @@ button.addEventListener('click', function () {
 });
 
 window.addEventListener('scroll', function () {
-  if (this.window.pageYOffset > 0) return navbar.classList.add('active');
+  if (this.window.scrollY > 0) return navbar.classList.add('active');
   return navbar.classList.remove('active');
 });
+
