@@ -11,7 +11,8 @@ html {
 }
 
 body {
-background-color: var(--background);
+  transition: background-color 0.3s, color 0.3s;
+  background-color: var(--background);
   font-size: 1.6rem;
   margin-top: 15rem;
 }
