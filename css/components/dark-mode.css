@@ -1,0 +1,19 @@
+:root {
+
+/* Projeto darkMode */
+  --background: #000f29;
+
+/* Paleta de cores do site */
+  --white: #000000;
+  --gray: #d9d9d9;
+  --black: #FFFFFF;
+  --primary-color: #FFFFFF;
+  --secondary-color: #FFFFFF;
+  --dark-secondary-color: #e7ff0f;
+  --tertiary-color: #FFFFFF;
+  --light-tertiary-color: #142e55;
+  --text-color: #343d48;
+  --navbar-color: rgba(0, 0, 0, 0.76);
+
+  --font-family: 'DM Sans', sans-serif;
+}

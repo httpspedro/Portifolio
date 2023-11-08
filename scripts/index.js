@@ -11,3 +11,13 @@ window.addEventListener('scroll', function () {
   return navbar.classList.remove('active');
 });
 
+const darkModeToggle = document.getElementById('dark-mode-toggle');
+const darkModeStylesheet = document.querySelector('link[rel="stylesheet"][href="css/components/dark-mode.css"]');
+
+darkModeToggle.addEventListener('click', () => {
+  if (darkModeStylesheet.disabled) {
+    darkModeStylesheet.disabled = false;
+  } else {
+    darkModeStylesheet.disabled = true;
+  }
+});

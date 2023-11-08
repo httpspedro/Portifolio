@@ -1,4 +1,8 @@
 :root {
+  /* White Mode */
+  --background: #FFFFFF;
+
+  /* Peleta Original */
   --white: #ffffff;
   --gray: #d9d9d9;
   --black: #000000;
@@ -8,6 +12,7 @@
   --tertiary-color: #a6b1e1;
   --light-tertiary-color: #f3f6fb;
   --text-color: #343d48;
+  --navbar-color: rgba(0, 0, 0, 0.1);
 
   --font-family: 'DM Sans', sans-serif;
 }

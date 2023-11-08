@@ -9,6 +9,8 @@
     <title>Lucas Lima || Dev Web Front-End -> HTML, Css, JavaScript entre outros tecnoligias em processo.</title>
     <!-- Link que conecta os css -->
     <link rel="stylesheet" href="css/extends.css">
+    <link rel="stylesheet" href="css/components/dark-mode.css" media="(prefers-color-scheme: dark)">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,6 +32,12 @@
                     <li><a href="#skills">Habilidades</a></li>
                     <li><a href="#projects">Projetos</a></li>
                     <li><a href="#footer">Contato</a></li>
+                    <li>
+                        <label class="switch">
+                            <input type="checkbox" id="dark-mode-toggle">
+                            <span class="slider round"></span>
+                        </label>
+                    </li>
                 </ul>
                 <div class="navbar__mobile">
                     <img src="assets/menu.svg" alt="menu" class="burguer" />
@@ -39,6 +47,12 @@
                       <li><a href="#skills">Habilidades</a></li>
                       <li><a href="#projects">Projetos</a></li>
                       <li><a href="#footer">Contato</a></li>
+                      <li>
+                        <label class="switch">
+                            <input type="checkbox" id="dark-mode-toggle">
+                            <span class="slider round"></span>
+                        </label>
+                    </li>
                     </ul>
                 </div>
             </div>
@@ -63,8 +77,8 @@
                 </div>
             </div>
         </header>
-        <!-- Sobre -->
 
+        <!-- Sobre -->
         <section id="about" class="about max-width">
             <div class="about__left">
                 <h2 class="secondary-title">Além do código: Quem sou eu?</h2>
@@ -99,7 +113,7 @@
                         <div class="image-container">
                             <img src="assets/notebook.png" alt="Desenvolvimento Web">
                         </div>
-                        <h3>Desenvolvimento Web</h3>
+                        <h3 class="tertiary-title">Desenvolvimento Web</h3>
                         <p>Experiência em desenvolvimento e edição sites para jogos como Lineage2, 
                             operando na parte de gerenciamento, desemvolvimento e montagem de servidores usando MSQL, Navicat, JavaJDK, 
                             dominio, hospedagem, e coneção remota dos player com servidor.
@@ -109,7 +123,7 @@
                         <div class="image-container">
                             <img src="assets/colors.png" alt="Web Design">
                         </div>
-                        <h3>Web Design</h3>
+                        <h3 class="tertiary-title">Web Design</h3>
                         <p>Habilidade em criar layouts modernos e responsivos, 
                             com foco na experiência do usuário.</p>
                     </li>
@@ -117,7 +131,7 @@
                         <div class="image-container">
                             <img src="assets/files.png" alt="Gerenciamentos de versões">
                         </div>
-                        <h3>Gerenciamentos de versões</h3>
+                        <h3 class="tertiary-title">Gerenciamentos de versões</h3>
                         <p>Experiência em ferramentas de gerenciamento de versão 
                             para controle de projetos no momento experiência apenas com GIT.</p>
                     </li>
@@ -183,8 +197,8 @@
                 <h2 class="tertiary-title mb-s">Vamos conversar?</h2>
                 <p class="mb-m">Ficarei feliz em saber mais sobre seus projetos e como podemos trabalhar juntos para torná-los realidade.</p>
                 <div class="footer__contact mb-m">
-                    <span class="mb-m">pedro.lucas.fl@hotmail.com</span>
-                    <span>(86) 99928-7616</span>
+                    <span class="tertiary-title mb-m">pedro.lucas.fl@hotmail.com</span>
+                    <span class="tertiary-title">(86) 99928-7616</span>
                 </div>
                 <ul>
                     <li><a href="https://www.instagram.com/lucaslima1dev/" target="_blank"><img src="assets/instagram.svg" alt="Instagram"></a></li>
@@ -196,8 +210,6 @@
                 </p>
             </div>
         </footer>
-
- 
 
         <!-- Import dos scripts -->
         <script src="scripts/index.js"></script>
