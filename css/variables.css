@@ -14,5 +14,8 @@
   --text-color: #343d48;
   --navbar-color: rgba(0, 0, 0, 0.1);
 
+  --color-img: invert(0%);
+  --color-img-color: invert(50%);
+
   --font-family: 'DM Sans', sans-serif;
 }

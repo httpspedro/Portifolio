@@ -22,6 +22,14 @@
   display: inline-block;
 }
 
+.about .about__left ul li img {
+  filter: var(--color-img);
+}
+
+.about .about__left ul li img:hover {
+  filter: var(--color-img-color);
+}
+
 .about .about__left ul li a {
   display: inline-block;
   padding: 1rem;

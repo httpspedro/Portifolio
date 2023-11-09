@@ -51,6 +51,7 @@
   }
 
   .navbar .navbar__content .navbar__mobile img {
+    filter: var(--color-img-color);
     width: 3.6rem;
     height: 3.6rem;
     cursor: pointer;
@@ -59,7 +60,7 @@
   .navbar .navbar__content .navbar__mobile.active .mobile__links {
     display: flex;
     flex-direction: column;
-    background-color: var(--white);
+    background-color: var(--background);
     width: 100%;
     position: absolute;
     top: 98%;

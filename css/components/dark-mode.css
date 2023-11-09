@@ -1,6 +1,5 @@
 :root {
-
-/* Projeto darkMode */
+/* darkMode */
   --background: #000f29;
 
 /* Paleta de cores do site */
@@ -10,10 +9,13 @@
   --primary-color: #FFFFFF;
   --secondary-color: #FFFFFF;
   --dark-secondary-color: #e7ff0f;
-  --tertiary-color: #FFFFFF;
+  --tertiary-color: #e7ff0f;
   --light-tertiary-color: #142e55;
   --text-color: #343d48;
   --navbar-color: rgba(0, 0, 0, 0.76);
+
+  --color-img: invert(100%);
+  --color-img-color: invert(50%);
 
   --font-family: 'DM Sans', sans-serif;
 }
